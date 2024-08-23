@@ -1,7 +1,7 @@
 package org.example;
 
 public class DatabaseLogger {
-
+    // Lazy Initialization
     private static DatabaseLogger INSTANCE;
 
     private DatabaseLogger() {}
